@@ -54,8 +54,8 @@ function App() {
         <Typography variant="h3" style={{margin:"50px"}}>Quiz-Application</Typography>
         {(_.isNull(questions)||_.isUndefined(questions) || _.isEqual(responseCode,1))&&(
           <div>
-        <Typography variant="h4">To start quiz lease select difficulty level</Typography>
-        <FormControl className={classes.formControl}>
+        <Typography variant="h4">To start quiz please select difficulty level</Typography>
+        <FormControl variant="outlined" className={classes.formControl}>
           <Select
             value={choice}
             onChange={handleChange}
