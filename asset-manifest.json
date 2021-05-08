@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/QuizApp/static/css/main.432c6065.chunk.css",
-    "main.js": "/QuizApp/static/js/main.a0177ef7.chunk.js",
-    "main.js.map": "/QuizApp/static/js/main.a0177ef7.chunk.js.map",
-    "runtime-main.js": "/QuizApp/static/js/runtime-main.85a342f8.js",
-    "runtime-main.js.map": "/QuizApp/static/js/runtime-main.85a342f8.js.map",
-    "static/js/2.43f85151.chunk.js": "/QuizApp/static/js/2.43f85151.chunk.js",
-    "static/js/2.43f85151.chunk.js.map": "/QuizApp/static/js/2.43f85151.chunk.js.map",
-    "static/js/3.629c43a7.chunk.js": "/QuizApp/static/js/3.629c43a7.chunk.js",
-    "static/js/3.629c43a7.chunk.js.map": "/QuizApp/static/js/3.629c43a7.chunk.js.map",
+    "main.css": "/QuizApp/static/css/main.2fad3cc0.chunk.css",
+    "main.js": "/QuizApp/static/js/main.80f95a37.chunk.js",
+    "main.js.map": "/QuizApp/static/js/main.80f95a37.chunk.js.map",
+    "runtime-main.js": "/QuizApp/static/js/runtime-main.4a19863b.js",
+    "runtime-main.js.map": "/QuizApp/static/js/runtime-main.4a19863b.js.map",
+    "static/js/2.9a8d32db.chunk.js": "/QuizApp/static/js/2.9a8d32db.chunk.js",
+    "static/js/2.9a8d32db.chunk.js.map": "/QuizApp/static/js/2.9a8d32db.chunk.js.map",
+    "static/js/3.faa2f89e.chunk.js": "/QuizApp/static/js/3.faa2f89e.chunk.js",
+    "static/js/3.faa2f89e.chunk.js.map": "/QuizApp/static/js/3.faa2f89e.chunk.js.map",
     "index.html": "/QuizApp/index.html",
-    "static/css/main.432c6065.chunk.css.map": "/QuizApp/static/css/main.432c6065.chunk.css.map",
-    "static/js/2.43f85151.chunk.js.LICENSE.txt": "/QuizApp/static/js/2.43f85151.chunk.js.LICENSE.txt"
+    "static/css/main.2fad3cc0.chunk.css.map": "/QuizApp/static/css/main.2fad3cc0.chunk.css.map",
+    "static/js/2.9a8d32db.chunk.js.LICENSE.txt": "/QuizApp/static/js/2.9a8d32db.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.85a342f8.js",
-    "static/js/2.43f85151.chunk.js",
-    "static/css/main.432c6065.chunk.css",
-    "static/js/main.a0177ef7.chunk.js"
+    "static/js/runtime-main.4a19863b.js",
+    "static/js/2.9a8d32db.chunk.js",
+    "static/css/main.2fad3cc0.chunk.css",
+    "static/js/main.80f95a37.chunk.js"
   ]
 }
