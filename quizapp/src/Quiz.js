@@ -55,7 +55,7 @@ const [answerText, setAnswerText] = useState('');
 const [completedQuiz, setCompletedQuiz] = useState(false);
 const vertical='bottom';const horizontal='center';
   useEffect(() => {
-    if(counter<=10)  {
+    if(counter<11 && _.isEmpty(answerText))  {
     const interval = setInterval(() => {
       setSeconds(second => (second === 1 ? 10 : second - 1));
     }, 1000);
@@ -63,7 +63,7 @@ const vertical='bottom';const horizontal='center';
     return () => clearInterval(interval);
     }
     
-  }, [counter,questions]);
+  }, [counter,questions,answerText]);
 
   useEffect(()=>{
     if(_.isEqual(seconds,10)) 
@@ -79,7 +79,6 @@ const vertical='bottom';const horizontal='center';
   },[counter, gobacktoHome]);
 
   const handleClick=(value)=>{
-    console.log("button value",value);
     if(_.isEqual(value,questions[counter-1].correct_answer))
     {
       setCorrect(correct=>correct+1);
